@@ -8,9 +8,7 @@ function Stars() {
     <div className={styles.star}>
         {stars.map((_, index) => {
             return(
-                <FaStar 
-                    key={index}
-                />
+                <FaStar key={index} className={styles.star_img}/>
             )
         })}
     </div>
