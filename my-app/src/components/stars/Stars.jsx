@@ -13,7 +13,7 @@ function Stars() {
     const [currentValue, setCurrentValue] = useState(0); //хук для подсветки звезд при клике
     const [hoverValue, setHoverValue] = useState(undefined); //хук для подсветки звезд при наведении мыши
 
-    const handleClick = value => {
+    function handleClick(value) {
         return setCurrentValue(value)
     }
 
@@ -33,6 +33,8 @@ function Stars() {
                 <FaStar key={index} size={30} className={styles.img_stars} 
                     color={(hoverValue || currentValue) > index ? colors.orange : colors.grey}
                     onClick={() => handleClick(index + 1)}
+                    onMouseOver={() => handleMouseOver(index + 1)}
+                    onMouseLeave={handleMouseLeave}
                 />
             )
         })}
