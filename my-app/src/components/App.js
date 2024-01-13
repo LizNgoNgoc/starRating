@@ -4,7 +4,7 @@ import FaStars from './rating/FaStars';
 
 function App() {
   return <div className="App">
-      <h1>Five Stars Rating</h1>
+      <h1 className='header'>Five Stars Rating</h1>
       <FaStars />
     </div>
 }

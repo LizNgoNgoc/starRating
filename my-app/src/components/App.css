@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
 .App {
   text-align: center;
 }
@@ -6,6 +7,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
