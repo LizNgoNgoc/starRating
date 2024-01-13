@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Roboto:wght@300&display=swap');
+
 .form {
     width: 100%;
     display: flex;
@@ -10,10 +12,22 @@
     height: 35px;
     border-radius: 5px;
     padding: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .textarea {
     height: 115px;
     border-radius: 5px;
     padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.btn_submit {
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+
 }

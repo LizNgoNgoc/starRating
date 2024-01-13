@@ -4,7 +4,6 @@ import Form from '../review/Form';
 
 function FaStars() {
     return <div className={styles.container}>
-        <p className={styles.star}>Stars</p>
         <Stars />
         <Form />
     </div>
